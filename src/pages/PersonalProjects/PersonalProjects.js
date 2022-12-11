@@ -1,17 +1,31 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import swapcars from '../../assets/swapcars.PNG';
 import ankan from '../../assets/ankan.PNG';
 import pedagog from '../../assets/pedagog.PNG';
+import Project from './Project';
 
 const PersonalProjects = () => {
-    return (
-        <div
-        style={{backgroundImage: `url('https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-fresh-wind-blue-geometric-illustration-background-image_280166.jpg')`}}
-        className='bg-blue-50 bg-no-repeat bg-cover mx-12 rounded-lg'
-        >
-            <h2 className="text-3xl text-center pt-12 font-semibold">Personal Projects</h2>
-            <section className="text-gray-600 body-font">
+  const projects = useLoaderData();
+  return (
+    <div
+      style={{ backgroundImage: `url('https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-fresh-wind-blue-geometric-illustration-background-image_280166.jpg')` }}
+      className='bg-blue-50 bg-no-repeat bg-cover mx-12 rounded-lg'
+    >
+      <h2 className="text-3xl text-center pt-12 font-semibold">Personal Projects</h2>
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-wrap -m-4">
+            {
+              projects.map(project => <Project
+                key={project.id}
+                project={project}
+              ></Project>)
+            }
+          </div>
+        </div>
+      </section>
+      {/* <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/3">
@@ -71,9 +85,9 @@ const PersonalProjects = () => {
       </div>
     </div>
   </div>
-</section>
-        </div>
-    );
+</section> */}
+    </div>
+  );
 };
 
 export default PersonalProjects;

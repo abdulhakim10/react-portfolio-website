@@ -1,0 +1,41 @@
+[
+    {
+        "id": "01",
+        "title": "Swapcars",
+        "description": "Used cars resale web application.",
+        "thumbnail_img": "https://i.ibb.co/B4ZVnz5/swapcars.png",
+        "img_1": "https://i.ibb.co/cYj7M82/swapcars1.png",
+        "img_2": "https://i.ibb.co/vhPMB1c/swapcars2.png",
+        "img_3": "https://i.ibb.co/F69gL33/swapcars3.png",
+        "features1": "•For Buyer: Booking products to buy and manage them (delete booking or pay). Products saved on the wishlist.",
+        "features2": "•For Seller: Sell products, Add products to sell, and manage them (promote or delete). And see all own products.",
+        "technologies": "•React Js, Tailwind, Firebase Authentication, JWT, React Router, React Query, React Hook FormNode Js, Express Js, Stripe MongoDB, etc.",
+        "live_link": "https://swapcars-assignment.web.app/"
+    },
+    {
+        "id": "02",
+        "title": "Ankan",
+        "thumbnail_img": "https://i.ibb.co/31n9SSR/ankan.png",
+        "description": "A personal Screen printing service selling web application.",
+        "img_1": "https://i.ibb.co/MBJr9JY/ankan1.png",
+        "img_2": "https://i.ibb.co/8gbsm41/ankan2.png",
+        "img_3": "https://i.ibb.co/k986G6p/ankan3.png",
+        "features1": "The owner of the website sells services here.",
+        "features2": "•Buyers can buy services, Share Their feedback comment, and each buyer sees their own comments on the (My Review) page.",
+        "technologies": "React Js, Tailwind, Firebase Authentication, React Router, React Query, React Hook Form, Node Js, Express Js, MongoDB, etc.",
+        "live_link": "https://ankan-printing-assignment.web.app/"
+    },
+    {
+        "id": "03",
+        "title": "Pedagog",
+        "thumbnail_img": "https://i.ibb.co/CtmsFnB/pedagog.png",
+        "description": "A learning platform web application.",
+        "img_1": "https://i.ibb.co/5990mSC/pedagog1.png",
+        "img_2": "https://i.ibb.co/svttkTJ/pedagog2.png",
+        "img_3": "https://i.ibb.co/cNPk1CM/pedagog3.png",
+        "features1": "•User see all services, see details each and every service, and if user want Get Premium that service.",
+        "features2": "",
+        "technologies": "•React Js, Tailwind, Firebase Authentication, React Router, Node Js, Express Js etc.",
+        "live_link": "https://pedagog-learning-assignment.web.app/"
+    }
+]
