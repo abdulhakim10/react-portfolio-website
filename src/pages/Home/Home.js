@@ -1,5 +1,7 @@
 import React from 'react';
 import { BsGithub, BsFacebook, BsTwitter, BsLinkedin } from 'react-icons/bs';
+import Typewriter from 'typewriter-effect';
+
 
 const Home = () => {
     return (
@@ -9,7 +11,28 @@ const Home = () => {
             <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
-      <h2 className="text-4xl text-black font-semibold">Hello! I'm Syed Abdul Hakim</h2>
+      <h2 className="text-4xl text-black font-semibold"><Typewriter
+      options={{
+        strings: ["Hello! I'm Syed Abdul Hakim"],
+        autoStart: true,
+        loop: true,
+      }}
+  onInit={(typewriter) => {
+    typewriter.typeString("Hello! I'm Syed Abdul Hakim")
+      .callFunction(() => {
+        console.log('String typed out!');
+      })
+      .pauseFor(2500)
+      .deleteAll()
+      .callFunction(() => {
+        console.log('All strings were deleted');
+      })
+      .pasteString("Hello! I'm Syed Abdul Hakim")
+      .start();
+      
+  }}
+/>
+</h2>
       <br />
       <h4 className='text-2xl'>Junior Web Developer</h4>
       <br />

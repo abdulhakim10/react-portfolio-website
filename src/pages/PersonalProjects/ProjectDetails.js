@@ -15,13 +15,13 @@ const ProjectDetails = () => {
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
   <div class="flex flex-wrap w-full lg:w-1/2 mx-auto">
         <div class="md:p-2 p-1 w-full">
-          <img alt="gallery" class="w-full h-full object-cover object-center block border-2 rounded-lg border-blue-100" src={specificProject.img_1}/>
+          <img alt="gallery" class="w-full h-full object-cover object-center block border-2 rounded-lg p-4 border-slate-900" src={specificProject.img_1}/>
         </div>
         <div class="md:p-2 p-1 w-1/2">
-          <img alt="gallery" class="w-full object-cover h-full object-center block border-2 rounded-lg border-blue-100" src={specificProject.img_2}/>
+          <img alt="gallery" class="w-full object-cover h-full object-center block border-2 rounded-lg p-4 border-slate-900" src={specificProject.img_2}/>
         </div>
         <div class="md:p-2 p-1 w-1/2">
-          <img alt="gallery" class="w-full object-cover h-full object-center block border-2 rounded-lg border-blue-100" src={specificProject.img_3}/>
+          <img alt="gallery" class="w-full object-cover h-full object-center block border-2 rounded-lg p-4 border-slate-900" src={specificProject.img_3}/>
         </div>
       </div>
     <div class="flex w-full mb-20 flex-wrap p-8">
